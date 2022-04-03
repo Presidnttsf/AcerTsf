@@ -10,7 +10,10 @@ export default function DisplayImg() {
         <div>
             <h1>Displaying Images</h1>
             {IMAGES.map(i => <img width="25%" height="300px" src={i} alt="img1" />)}
+            div
+
 
         </div>
+
     )
 }
