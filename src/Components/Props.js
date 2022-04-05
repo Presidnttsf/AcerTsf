@@ -12,13 +12,13 @@ export default function PropsComponent() {
     return (
         <div className='App'>
             <h1>#Props in React😍</h1>
-            <Student name={name} />
-            {/* <Student name={'Tauseef'} age={'29'} other={{ city: 'Nagpur', mobile: '9021980236' }} />
+            {/* <Student name={name} /> */}
+            <Student name={'Tauseef'} age={'29'} other={{ city: 'Nagpur', mobile: '9021980236' }} />
             <Student name={'AMD'} age={'30'} other={{ city: 'Banglore', mobile: '9021980238' }} />
-            <Student name={'Tariqu'} age={'25'} other={{ city: 'California', mobile: '9021980240' }} /> */}
+            <Student name={'Tariqu'} age={'25'} other={{ city: 'California', mobile: '9021980240' }} />
 
 
-            <button onClick={() => { setName('Tauseef Bhai') }}>update name</button>
+            {/* <button onClick={() => { setName('Tauseef Bhai') }}>update name</button> */}
 
         </div>
     )

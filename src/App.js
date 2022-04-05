@@ -18,6 +18,7 @@ function App() {
     <img src={IMAGES[4]} alt="cryptography" width={300} /> <br />
     <h3>Please click to start TSF React practice app😉 </h3>  <br />
     <button onClick={combine}><Link to="/home" className='navlink'>CLICK ME</Link></button>
+    {/* plz explain how to avoid app.js with condition */}
   </div >
   const NavBar = () => <NavbarComponent />
 
@@ -25,7 +26,11 @@ function App() {
 
   const NavhandleClick = () => NavsetShow(true)
 
-  const combine = () => { return handleClick() + NavhandleClick() }
+  // const combine = () => { return handleClick() + NavhandleClick() }
+  const combine = () => {
+    setShow(false);
+    NavsetShow(true);
+  }
 
   return (
     <div>

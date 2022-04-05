@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import { Row, Col, Card, ListGroup, } from 'react-bootstrap';
+import { Row, Col, Card, ListGroup, Text } from 'react-bootstrap';
 import IMAGES from '../Data/images/imagesData';
 
 
@@ -10,6 +10,34 @@ export default function Home() {
 
     return (
         <div>
+            <h1>INDEX TOPICS</h1>
+
+            <Card style={{ width: '18rem' }}>
+
+                <ul className='number'>
+
+                    <li> <Link to="/" >App Page</Link> </li>
+                    <li> <Link to="/firstpage" >FIRST PAGE</Link> <b r /></li>
+                    <li> <Link to="/trianglecomponent" >Triangle</Link> <b r /></li>
+                    <li> <Link to="/formpractice" >Form practice</Link> </li>
+                    <li> <Link to="/datafrompc" >Data from PC</Link> </li>
+                    <li> <Link to="/axiosapi" >Axios Api page</Link> </li>
+                    <li> <Link to="/displayimages" >Displaying Images</Link> </li>
+                    <li> <Link to="/printtables" >Printing Table</Link> </li>
+                    <li> <Link to="/propscomponent" >Props Practice</Link> </li>
+                    <li> <Link to="/getinput" >Get Input Box Value</Link> </li>
+                    <li> <Link to="/hideshow" >Hide and Show Element</Link> </li>
+                    <li> <Link to="/formdata" >Get data from the form</Link> </li>
+                    <li> <Link to="/rendering" >Conditional Rendering with If Condition</Link> </li>
+                    <li> <Link to="/funprop" >Pass function as props</Link> </li>
+                </ul>
+
+
+
+            </Card>
+
+
+
 
             <div className='App'>
                 <h3>   Well-Come to TSF practice App</h3>
@@ -19,6 +47,19 @@ export default function Home() {
 
             <h2 className='App'>INTRODUCTION</h2>
             <Row>
+                <Col sm={6}>
+                    <h4>Notes for Doubt</h4>
+                    <p style={{ backgroundColor: 'lightpink' }} >
+
+                        <li> Resume react video from 2:54:22 </li>
+                        <li> Displaying full images file.</li>
+                        <li>Full images props is not clear how to pass? </li>
+                        <li>Types of Import is not working in my file, have sent video for doubt clear. </li>
+
+
+                    </p>
+                </Col>
+
                 <Col sm={3}>
                     <h4>Declarative</h4>
                     <p >React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
@@ -51,26 +92,7 @@ export default function Home() {
                 </Col>
 
             </Row>
-            <h1>INDEX TOPICS</h1>
 
-            <Card style={{ width: '18rem' }}>
-
-                <ul className='number'>
-
-                    <li> <Link to="/" >App Page</Link> <br /></li>
-                    <li> <Link to="/firstpage" >FIRST PAGE</Link> <b r /></li>
-                    <li> <Link to="/trianglecomponent" >Triangle</Link> <b r /></li>
-                    <li> <Link to="/formpractice" >Form practice</Link> <br /></li>
-                    <li> <Link to="/datafrompc" >Data from PC</Link> <br /></li>
-                    <li> <Link to="/axiosapi" >Axios Api page</Link> <br /></li>
-                    <li> <Link to="/displayimages" >Displaying Images</Link> <br /></li>
-                    <li> <Link to="/printtables" >Printing Table</Link> <br /></li>
-                    <li> <Link to="/propscomponent" >Props Practice</Link> <br /></li>
-                </ul>
-
-
-
-            </Card>
 
         </div>
     )

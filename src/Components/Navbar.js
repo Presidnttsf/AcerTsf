@@ -14,10 +14,10 @@ export default function NavbarComponent() {
                         <Nav className="me-auto">
 
                             <Nav.Link>  <Link to="/home" className='navlink'>Home</Link></Nav.Link>
-                            <Nav.Link>  <Link to="/links" className='navlink'>Links</Link></Nav.Link>
+                            <Nav.Link>  <Link to="/links" className='navlink'>Tutorials</Link></Nav.Link>
 
 
-                            <Nav.Link>  <Link to="/formpractice" className='navlink'>FormPractice</Link></Nav.Link>
+                            <Nav.Link>  <Link to="/formpractice" className='navlink'>UseFormHook</Link></Nav.Link>
 
                             <Nav.Link>  <Link to="/" className='navlink'>ABOUT</Link></Nav.Link>
                             <Nav.Link>  <Link to="/" className='navlink'>CONTACT US</Link></Nav.Link>
