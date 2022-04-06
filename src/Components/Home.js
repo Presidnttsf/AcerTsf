@@ -30,6 +30,7 @@ export default function Home() {
                     <li> <Link to="/formdata" >Get data from the form</Link> </li>
                     <li> <Link to="/rendering" >Conditional Rendering with If Condition</Link> </li>
                     <li> <Link to="/funprop" >Pass function as props</Link> </li>
+                    <li> <Link to="/counterapp" >Counter App By Ahmed</Link> </li>
                 </ul>
 
 

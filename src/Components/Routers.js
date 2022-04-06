@@ -17,6 +17,7 @@ import HideShow from './HideShow';
 import GetFormData from './GetFormData';
 import ConditionalRendering from './ConditionalRendering';
 import FunProps from './FunProps';
+import CounterApp from './CounterApp';
 
 export default function RoutersComponent() {
 
@@ -42,6 +43,7 @@ export default function RoutersComponent() {
                 <Route path="formdata" element={<GetFormData />} />
                 <Route path="rendering" element={<ConditionalRendering />} />
                 <Route path="funprop" element={<FunProps />} />
+                <Route path="counterapp" element={<CounterApp />} />
 
 
 
