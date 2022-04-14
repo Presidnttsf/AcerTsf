@@ -26,6 +26,7 @@ export default function CounterApp() {
     }
 
     const mapper = (e) => {
+        console.log('e', e)
         return <CounterComponent name={e} />
     }
 

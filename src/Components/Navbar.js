@@ -10,7 +10,7 @@ export default function NavbarComponent() {
             <Container fluid>
                 <Navbar bg="light" variant="light">
                     <Container >
-                        <Navbar.Brand>  <Link to="/home" className='navlink' >TSF PRACTICE</Link></Navbar.Brand>
+                        <Navbar.Brand>  <Link to="/home" className='navlink' >TSF PRACTICE 👻</Link></Navbar.Brand>
                         <Nav className="me-auto">
 
                             <Nav.Link>  <Link to="/home" className='navlink'>Home</Link></Nav.Link>

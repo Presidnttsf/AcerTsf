@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Card, Stack } from 'react-bootstrap';
 
 export default function CounterComponent(props) {
 
@@ -18,19 +19,25 @@ export default function CounterComponent(props) {
 
 
     return (
-        <div className='App'>
-            {/* <h1>Counter Component</h1> */}
+        <div className='App' >
 
-            <div style={{ backgroundColor: 'green' }}>
-                <span style={{ margin: '10px', color: 'white' }}>{props.name + ':'}</span>
-                <button onClick={handleMinus}>-</button>
-                <span style={{ margin: '10px', color: 'white' }}>{count}</span>
-                <button onClick={handlePlus}>+</button>
-                <button style={{ margin: '10px' }} onClick={() => setCount(0)}>Reset</button>
+            <Stack gap={3}>
+                <div className="p">
+                    <span style={{ margin: '10px', color: 'black' }}>{props.name + ':'}</span>
+                    <button onClick={handleMinus}>-</button>
+                    <span style={{ margin: '10px', color: 'black' }}>{count}</span>
+                    <button onClick={handlePlus}>+</button>
+                    <button style={{ margin: '10px' }} onClick={() => setCount(0)}>Reset</button>
 
 
 
-            </div>
+
+
+                </div>
+
+            </Stack>
+
+
         </div >
     )
 }

@@ -10,34 +10,51 @@ export default function Home() {
 
     return (
         <div>
-            <h1>INDEX TOPICS</h1>
+            <h1 className='App'>INDEX TOPICS</h1>
+            <Row>
+                <Col sm={3}>
+                    <Card style={{ width: '18rem' }}>
 
-            <Card style={{ width: '18rem' }}>
+                        <ul className='number'>
 
-                <ul className='number'>
+                            <li> <Link to="/" >App Page</Link> </li>
+                            <li> <Link to="/firstpage" >FIRST PAGE</Link> <b r /></li>
+                            <li> <Link to="/trianglecomponent" >Triangle</Link> <b r /></li>
+                            <li> <Link to="/formpractice" >Form practice</Link> </li>
+                            <li> <Link to="/datafrompc" >Data from PC</Link> </li>
+                            <li> <Link to="/axiosapi" >Axios Api page</Link> </li>
+                            <li> <Link to="/displayimages" >Displaying Images</Link> </li>
+                            <li> <Link to="/printtables" >Printing Table</Link> </li>
+                            <li> <Link to="/propscomponent" >Props Practice</Link> </li>
+                            <li> <Link to="/getinput" >Get Input Box Value</Link> </li>
+                            <li> <Link to="/hideshow" >Hide and Show Element</Link> </li>
+                            <li> <Link to="/formdata" >Get data from the form</Link> </li>
+                            <li> <Link to="/rendering" >Conditional Rendering with If Condition</Link> </li>
+                            <li> <Link to="/funprop" >Pass function as props</Link> </li>
 
-                    <li> <Link to="/" >App Page</Link> </li>
-                    <li> <Link to="/firstpage" >FIRST PAGE</Link> <b r /></li>
-                    <li> <Link to="/trianglecomponent" >Triangle</Link> <b r /></li>
-                    <li> <Link to="/formpractice" >Form practice</Link> </li>
-                    <li> <Link to="/datafrompc" >Data from PC</Link> </li>
-                    <li> <Link to="/axiosapi" >Axios Api page</Link> </li>
-                    <li> <Link to="/displayimages" >Displaying Images</Link> </li>
-                    <li> <Link to="/printtables" >Printing Table</Link> </li>
-                    <li> <Link to="/propscomponent" >Props Practice</Link> </li>
-                    <li> <Link to="/getinput" >Get Input Box Value</Link> </li>
-                    <li> <Link to="/hideshow" >Hide and Show Element</Link> </li>
-                    <li> <Link to="/formdata" >Get data from the form</Link> </li>
-                    <li> <Link to="/rendering" >Conditional Rendering with If Condition</Link> </li>
-                    <li> <Link to="/funprop" >Pass function as props</Link> </li>
-                    <li> <Link to="/counterapp" >Counter App By Ahmed</Link> </li>
-                </ul>
-
-
-
-            </Card>
+                        </ul>
 
 
+
+                    </Card>
+                </Col>
+                <Col sm={3}>
+                    <Card style={{ width: '18rem' }}>
+
+                        <ul className='number'>
+
+                            <li> <Link to="/counterapp" >Counter App By Ahmed</Link> </li>
+                            <li> <Link to="/notehome" >Note App</Link> </li>
+                            <li> <Link to="/noteapp" >Note App Single Page</Link> </li>
+                        </ul>
+
+
+
+                    </Card>
+                </Col>
+
+
+            </Row>
 
 
             <div className='App'>
@@ -52,7 +69,8 @@ export default function Home() {
                     <h4>Notes for Doubt</h4>
                     <p style={{ backgroundColor: 'lightpink' }} >
 
-                        <li> Resume react video from 2:54:22 </li>
+                        <li> Resume react video from 3:16:22 </li>
+                        <li> Why scrolling is not showing in My Note app on note page </li>
                         <li> Displaying full images file.</li>
                         <li>Full images props is not clear how to pass? </li>
                         <li>Types of Import is not working in my file, have sent video for doubt clear. </li>
